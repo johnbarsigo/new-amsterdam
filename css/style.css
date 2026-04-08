@@ -190,3 +190,9 @@ span {
     background: var(--second-bg-color);
 
 }
+
+.about-img img {
+
+    width: 35vw;
+    
+}
