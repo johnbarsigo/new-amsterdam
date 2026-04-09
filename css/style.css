@@ -392,6 +392,7 @@ span {
 
     max-width: 70rem;
     margin: 1rem auto;
+    text-align: center;
     margin-bottom: 3rem;
 
 }
@@ -414,5 +415,26 @@ span {
     background: var(--second-bg-color);
     border-radius: .8rem;
     margin: .7rem 0;
-    
+
+}
+
+
+.contact form .input-box input {
+
+    width: 49%;
+
+}
+
+.contact form textarea {
+
+    resize: none;
+    height: 15rem;
+
+}
+
+.contact form .btn {
+
+    margin-top: 2rem;
+    cursor: pointer;
+
 }
