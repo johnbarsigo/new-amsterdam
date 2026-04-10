@@ -232,7 +232,7 @@ span {
 
 .about-content h2 {
 
-    text-align: left;
+    text-align: center;
     line-height: 1.2;
 
 }
@@ -240,6 +240,7 @@ span {
 .about-content h3 {
 
     font-size: 2.3rem;
+    text-align: center;
 
 }
 
@@ -247,7 +248,13 @@ span {
 
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
-    /* text-align: justify; */
+    text-align: center;
+
+}
+
+.about-content a {
+
+    margin-left: 5rem;
 
 }
 
