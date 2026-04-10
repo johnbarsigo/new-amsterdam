@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
 
     margin: 0;
@@ -32,6 +34,7 @@ body {
 
     background: var(--bg-color);
     color: var(--text-color);
+    font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -158,6 +161,29 @@ span {
     background: var(--main-color);
     color: var(--second-bg-color);
     box-shadow: 0 0 1rem var(--main-color);
+
+}
+
+.about-content a {
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background: transparent;
+    border: .2rem solid var(--main-color);
+    border-radius: 50%;
+    font-size: 2rem;
+    color: var(--main-color);
+    margin-right: 3rem 1.5rem 3rem 0;
+    /* transition: .5rem ease; */
+
+}
+
+.home-content .btn {
+
+    margin-right: 2rem;
 
 }
 
@@ -493,12 +519,73 @@ span {
 
 }
 
+.screenshot-container-22 .phone-images {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* gap: 6rem; */
+}
+
+.screenshot-container-22 .responsive-design {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* .portfolio-container-22 {
+
+    display: grid;
+    align-items: center;
+    gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.portfolio-container-22 .portfolio-box-22 {
+
+    position: relative;
+    overflow: hidden;
+    display: flex;
+
+
+} */
+
+#phone {
+    
+    width: auto;
+    height: 90vh;
+    border-radius: 2rem;
+    transition: .5s ease;
+}
+
 .portfolio-container-11 .portfolio-box-11 img {
 
     width: 50vw;
     height: 55vh;
     border-radius: 2rem;
     transition: .5s ease;
+
+}
+
+.portfolio-description-11 h4 {
+
+    font-size: 2.3rem;
+
+}
+
+.portfolio-description-11 p {
+
+    font-size: 1.3rem;
+    /* margin: 1.5; */
+    
+}
+
+.portfolio-description-11 {
+
+    justify-content: center;
 
 }
 
