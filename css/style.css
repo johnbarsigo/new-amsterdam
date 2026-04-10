@@ -535,6 +535,24 @@ span {
 
 }
 
+.portfolio-box-11 img, .phone-images img {
+
+    transition: .5s ease;
+
+}
+
+.portfolio-box-11 img:hover {
+
+    transform: scale(1.05);
+
+}
+
+.phone-images img:hover {
+
+    transform: scale(1.05);
+
+}
+
 /* .portfolio-container-22 {
 
     display: grid;
@@ -576,6 +594,12 @@ span {
 
 }
 
+.portfolio-description-11 h5 {
+
+    font-size: 1.8rem;
+    color: var(--main-color);
+}
+
 .portfolio-description-11 p {
 
     font-size: 1.3rem;
@@ -586,6 +610,30 @@ span {
 .portfolio-description-11 {
 
     justify-content: center;
+
+}
+
+.responsive-design {
+
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+
+}
+
+.responsive-design h4 {
+
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+.responsive-design p {
+
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 
 }
 
