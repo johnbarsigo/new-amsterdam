@@ -480,3 +480,26 @@ span {
     color: var(--second-bg-color);
 
 }
+
+/* \\\\\\\\\\\\\\\\\ PORTFOLIO TRIAL \\\\\\\\\\\\\\\\\\ */
+
+.portfolio-container-11 {
+    
+    padding: 4rem 0;
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    margin-bottom: 4rem;
+
+}
+
+.portfolio-container-11 .portfolio-box-11 img {
+
+    width: 50vw;
+    height: 55vh;
+    border-radius: 2rem;
+    transition: .5s ease;
+
+}
+
+/* \\\\\\\\\\\\\\\\\ PORTFOLIO TRIAL \\\\\\\\\\\\\\\\\\ */
