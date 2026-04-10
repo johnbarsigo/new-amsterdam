@@ -590,3 +590,223 @@ span {
 }
 
 /* \\\\\\\\\\\\\\\\\ PORTFOLIO TRIAL \\\\\\\\\\\\\\\\\\ */
+
+/* MOBILE RESPONSIVE */
+
+/* Media Queries for Tablets and Phones */
+
+/* Tablet Styles (up to 768px wide) */
+@media (max-width: 768px) {
+    html {
+        font-size: 55%; /* Slightly smaller base font for tablets */
+    }
+
+    section {
+        padding: 8rem 5% 2rem; /* Reduce side padding */
+    }
+
+    .header {
+        padding: 1.5rem 5%;
+    }
+
+    .logo {
+        font-size: 2rem;
+    }
+
+    .navbar {
+        display: none; /* Hide navbar by default on mobile/tablet */
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: var(--bg-color);
+        flex-direction: column;
+        text-align: center;
+        padding: 1rem 0;
+    }
+
+    .navbar.active {
+        display: flex; /* Show when toggled */
+    }
+
+    .navbar a {
+        margin: 1rem 0;
+        font-size: 1.5rem;
+    }
+
+    #menu-icon {
+        display: block; /* Show hamburger menu */
+        cursor: pointer;
+    }
+
+    .home {
+        flex-direction: column; /* Stack content vertically */
+        text-align: center;
+    }
+
+    .home-content h1 {
+        font-size: 4rem; /* Smaller heading */
+    }
+
+    .home-content h3 {
+        font-size: 2.5rem;
+    }
+
+    .home-img img {
+        width: 80%; /* Scale image down */
+        height: auto;
+        margin-top: 2rem;
+    }
+
+    .about {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-img img {
+        width: 70%;
+        height: auto;
+    }
+
+    .about-content h2 {
+        font-size: 3.5rem;
+    }
+
+    .services-container .services-box {
+        flex: 1 1 45rem; /* Allow boxes to be wider on tablets */
+    }
+
+    .portfolio-container-11 {
+        flex-direction: column; /* Stack image and description */
+        gap: 1rem;
+    }
+
+    .portfolio-container-11 .portfolio-box-11 img {
+        width: 100%; /* Full width on smaller screens */
+        height: auto;
+    }
+
+    .portfolio-description-11 h4 {
+        font-size: 2rem;
+    }
+
+    .portfolio-description-11 p {
+        font-size: 1.2rem;
+    }
+
+    .screenshot-container-22 .phone-images {
+        flex-direction: column; /* Stack phone images vertically */
+        gap: 1rem;
+    }
+
+    #phone {
+        width: 100%;
+        height: auto;
+    }
+
+    .contact form .input-box input {
+        width: 100%; /* Full width inputs on small screens */
+    }
+
+    .footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+    }
+}
+
+/* Phone Styles (up to 480px wide) */
+@media (max-width: 480px) {
+    html {
+        font-size: 50%; /* Even smaller base font for phones */
+    }
+
+    section {
+        padding: 6rem 3% 2rem; /* Tighter padding */
+    }
+
+    .header {
+        padding: 1rem 3%;
+    }
+
+    .logo {
+        font-size: 1.8rem;
+    }
+
+    .navbar a {
+        font-size: 1.4rem;
+        margin: 0.5rem 0;
+    }
+
+    .home-content h1 {
+        font-size: 3rem;
+    }
+
+    .home-content h3 {
+        font-size: 2rem;
+    }
+
+    .home-img img {
+        width: 90%;
+    }
+
+    .about-img img {
+        width: 80%;
+    }
+
+    .about-content h2 {
+        font-size: 3rem;
+    }
+
+    .about-content h3 {
+        font-size: 2rem;
+    }
+
+    .services-container {
+        gap: 1rem;
+    }
+
+    .services-container .services-box {
+        padding: 2rem 1rem 3rem;
+    }
+
+    .services-box h3 {
+        font-size: 2rem;
+    }
+
+    .portfolio h2 {
+        font-size: 3.5rem;
+    }
+
+    .portfolio-container-11 {
+        padding: 2rem 0;
+    }
+
+    .portfolio-container-11 .portfolio-box-11 img {
+        height: 40vh; /* Shorter images on phones */
+    }
+
+    .portfolio-description-11 h4 {
+        font-size: 1.8rem;
+    }
+
+    .portfolio-description-11 p {
+        font-size: 1.1rem;
+    }
+
+    .responsive-design h4 {
+        font-size: 2rem;
+    }
+
+    .contact h2 {
+        font-size: 3rem;
+    }
+
+    .contact form {
+        margin: 0.5rem auto;
+    }
+
+    .footer-text p {
+        font-size: 1.4rem;
+    }
+}
