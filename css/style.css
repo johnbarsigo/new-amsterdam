@@ -710,7 +710,7 @@ span {
         font-size: 4rem; /* Smaller heading */
     }
     .home-content h3 {
-        font-size: 2.5rem;
+        font-size: 2.6rem;
     }
     .home-img img {
         width: 80%; /* Scale image down */
@@ -774,6 +774,33 @@ span {
     }
 
 
+@media ( max-width: 991px) {
+
+    .header {
+        padding: 2rem 3%;
+    }
+
+    section {
+        padding: 10rem 3% 2rem;
+    }
+
+    .services {
+        padding-bottom: 7rem;
+    }
+
+    .contact {
+        min-height: auto;
+    }
+
+    .footer {
+        padding: 2rem 3%;
+    }
+
+}
+
+
+
+
 }
 /* Tablet Styles (up to 768px wide) */
 @media (max-width: 768px) {
@@ -829,13 +856,14 @@ span {
     }
 
     .home-content h3 {
-        font-size: 2.5rem;
+        font-size: 2.6rem;
     }
 
     .home-img img {
-        width: 80%; /* Scale image down */
+        /* width: 80%; /* Scale image down */
+        width: 70vw;
         height: auto;
-        margin-top: 2rem;
+        margin-top: 4rem;
     }
 
     .about {
@@ -846,6 +874,7 @@ span {
     .about-img img {
         width: 70%;
         height: auto;
+        /* margin-top: 2rem; */
     }
 
     .about-content h2 {
@@ -984,6 +1013,11 @@ span {
 
     .contact form {
         margin: 0.5rem auto;
+    }
+
+    .contact form .input-box input,
+    .contact form textarea {
+        width: 100%;
     }
 
     .footer-text p {
