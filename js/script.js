@@ -28,6 +28,8 @@ window.onscroll = () => {
 
     // REMOVE MOBILE MENU
     navbar.classList.remove('active');
+    menuIcon.classList.remove('bx-x');
+    
 };
 
 
@@ -49,4 +51,5 @@ const navbar = document.querySelector('.navbar');
 
 menuIcon.addEventListener('click', () => {
     navbar.classList.toggle('active');
+    menuIcon.classList.toggle('bx-x');
 });
