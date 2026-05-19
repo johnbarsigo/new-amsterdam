@@ -17,9 +17,15 @@
 :root {
 
     --bg-color: #1f242d;
-    --second-bg-color: #323946;
+    /* --bg-color: #2a202f; */
+    /* --bg-color: #1f1f1f; */
+    --bg-clear: #1f242da5;
+    /* --second-bg-color: #323946; */
+    --second-bg-color: rgb(0, 0, 0);
     --text-color: #fff;
-    --main-color: #0ef;
+    /* --main-color: #0ef; */
+    /* --main-color: #4ca4fd; */
+    --main-color: #4cc8fd;
 
 }
 
@@ -52,7 +58,11 @@ section {
     left: 0;
     width: 100%;
     padding: 2rem 9%;
-    background: var(--bg-color);
+    /* background: var(--bg-color); */
+    /* background-color: var(--bg-color); */
+    background-color: var(--bg-clear);
+    background-repeat: no-repeat;
+    /* opacity: 65%; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -104,6 +114,12 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    /* background-color: var(--bg-color); */
+    background-image: url(../images/blue-workstation.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
 
 }
 
@@ -680,7 +696,8 @@ span {
         top: 100%;
         left: 0;
         width: 100%;
-        background: var(--bg-color);
+        /* background: var(--bg-color); */
+        background-color: var(--bg-clear);
         flex-direction: column;
         text-align: center;
         padding: 1rem 0;
@@ -826,7 +843,7 @@ span {
         top: 100%;
         left: 0;
         width: 100%;
-        background: var(--bg-color);
+        background: var(--bg-clear);
         flex-direction: column;
         text-align: center;
         padding: 1rem 0;
