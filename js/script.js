@@ -59,7 +59,7 @@ menuIcon.addEventListener('click', () => {
 
 ScrollReveal({
     
-    reset: true,
+    // reset: true,
     distance: '80px',
     duration: 2000,
     delay: 200
@@ -67,6 +67,6 @@ ScrollReveal({
 });
 
 ScrollReveal().reveal('.home-content, .heading, .portfolio-container-11 img, .phone-2', { origin: 'bottom' });
-ScrollReveal().reveal('.services-container, .contact form', { origin: 'top' });
+ScrollReveal().reveal('.services-container, .contact form, .responsive-design', { origin: 'top' });
 ScrollReveal().reveal('.about-img, .phone-1, #features-text', { origin: 'left' });
 ScrollReveal().reveal('.phone-3, #safiri-text, #nextgen-text', { origin: 'right' });
