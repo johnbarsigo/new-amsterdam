@@ -362,8 +362,9 @@
 
         <h2 class="heading">Contact <span>Me</span></h2>
 
-        <form action="https://formspree.io/f/mlgvjryp", method="POST">
+        <form action="https://api.web3forms.com/submit", method="POST">
 
+            <input type="hidden" name="access_key" value="62c3117f-8323-4788-851b-2fa6f5672560">
             <div class="input-box">
                 <input type="text" placeholder="Name" name="name" required>
                 <input type="email" placeholder="Email Address" name="email" required>
@@ -374,7 +375,7 @@
                 <input type="text" placeholder="Email Subject" name="subject">
             </div>
 
-            <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message Here"></textarea>
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message Here" required></textarea>
             <input type="submit" value="Send Message"  class="btn">
         </form>
 
