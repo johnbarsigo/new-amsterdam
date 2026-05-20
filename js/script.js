@@ -66,10 +66,21 @@ ScrollReveal({
 
 });
 
-ScrollReveal().reveal('.home-content, .heading, .portfolio-container-11 img, .phone-2', { origin: 'bottom' });
-ScrollReveal().reveal('.services-container, .contact form, .responsive-design', { origin: 'top' });
-ScrollReveal().reveal('.about-img, .phone-1, #features-text', { origin: 'left' });
-ScrollReveal().reveal('.phone-3, #safiri-text, #nextgen-text', { origin: 'right' });
+ScrollReveal().reveal('.home-content, .heading, .portfolio-container-11 img, .contact form', { origin: 'bottom' });
+
+ScrollReveal().reveal('.services-container', { origin: 'top' });
+
+ScrollReveal().reveal('.responsive-design', {origin: 'top', mobile: false, desktop: true});
+
+ScrollReveal().reveal('.about-img, #features-text', { origin: 'left' });
+
+ScrollReveal().reveal('.phone-1', { origin: 'left', mobile: false });
+ScrollReveal().reveal('.phone-2', { origin: 'bottom', mobile: false });
+ScrollReveal().reveal('.phone-3, #nextgen-text, #safiri-text ', { origin: 'right', mobile: false });
+
+ScrollReveal().reveal('#nextgen-text, #safiri-text, .responsive-design', {origin: 'left', mobile: true, desktop: false});
+
+ScrollReveal().reveal('.about-text', {origin: 'top', mobile: true, desktop: false});
 
 
 // Typed js

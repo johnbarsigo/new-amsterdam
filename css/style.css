@@ -31,6 +31,12 @@ html {
 
 }
 
+html.sr .load-hidden {
+
+    visibility: hidden;
+
+}
+
 body {
 
     /* background: var(--bg-color); */
