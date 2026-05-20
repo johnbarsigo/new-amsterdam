@@ -70,3 +70,15 @@ ScrollReveal().reveal('.home-content, .heading, .portfolio-container-11 img, .ph
 ScrollReveal().reveal('.services-container, .contact form, .responsive-design', { origin: 'top' });
 ScrollReveal().reveal('.about-img, .phone-1, #features-text', { origin: 'left' });
 ScrollReveal().reveal('.phone-3, #safiri-text, #nextgen-text', { origin: 'right' });
+
+
+// Typed js
+
+const typed = new Typed('.multiple-text', {
+
+    strings: ['Software Engineer', 'Backend Developer', 'Frontend Developer', 'Database Admin'],
+    typeSpeed: 50,
+    backSpeed: 30,
+    backDelay: 1000,
+    loop: true
+})
