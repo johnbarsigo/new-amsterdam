@@ -66,4 +66,7 @@ ScrollReveal({
 
 });
 
-ScrollReveal().reveal('.home-content, .heading', { origin: 'bottom' });
+ScrollReveal().reveal('.home-content, .heading, .portfolio-container-11 img, .phone-2', { origin: 'bottom' });
+ScrollReveal().reveal('.services-container, .contact form', { origin: 'top' });
+ScrollReveal().reveal('.about-img, .phone-1, #features-text', { origin: 'left' });
+ScrollReveal().reveal('.phone-3, #safiri-text, #nextgen-text', { origin: 'right' });
