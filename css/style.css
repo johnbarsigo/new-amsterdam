@@ -267,9 +267,20 @@ span {
 
 }
 
-.about-content a {
+/* .about-content a {
 
     margin-left: 5rem;
+
+} */
+
+.about-items {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1.5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
 
 }
 
