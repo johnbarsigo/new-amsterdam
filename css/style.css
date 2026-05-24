@@ -154,6 +154,20 @@ span {
 
 }
 
+.social-media {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.cv-links {
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
 .social-media a {
 
     display: inline-flex;
@@ -742,7 +756,7 @@ span {
         padding: 1rem 0;
     }
 
-        .navbar.active {
+    .navbar.active {
         display: flex; /* Show when toggled */
     }
 
