@@ -667,7 +667,28 @@ span {
 
 }
 
-/* \\\\\\\\\\\\\\\\\ PORTFOLIO TRIAL \\\\\\\\\\\\\\\\\\ */
+
+
+
+/* \\\\\\\\\\\\\\\\\ PORTFOLIO PAGE \\\\\\\\\\\\\\\\\\ */
+
+.project-card {
+
+    width: 80vw;
+    display: grid;
+
+}
+
+.project-card img {
+
+    width: 100%;
+    border-radius: 2rem;
+
+}
+
+
+
+/* \\\\\\\\\\\\\\\\\ RESPONSIVE DESIGN \\\\\\\\\\\\\\\\\\ */
 
 /* MOBILE RESPONSIVE */
 
