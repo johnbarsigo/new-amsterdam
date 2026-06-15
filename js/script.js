@@ -95,6 +95,8 @@ const typed = new Typed('.multiple-text', {
 })
 
 
+
+
 // // Form validation
 
 // const form = document.getElementById('contact-form');

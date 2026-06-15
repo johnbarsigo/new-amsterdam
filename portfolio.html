@@ -129,6 +129,37 @@
     
     </div>
 
+    <script>
+
+        // Image slider
+        
+        var slideIndex = 0;
+
+        const images = document.getElementsByClassName('project-image');
+        
+        function slideShow () {
+            
+            setTimeout ( slideShow, 2000 );
+            
+            var x;
+            
+            for ( x = 0; x < images.length; x++) {
+                
+                images[x].style.display = 'none';
+            }
+            
+            slideIndex++;
+
+            if ( slideIndex > images.length) {
+                slideIndex = 1;
+            }
+            images[slideIndex-1].style.display = 'block';
+        }
+        
+        slideShow ()
+
+    </script>
+
     <!-- Custom JavaScript -->
     <script src="js/script.js"></script>
 
