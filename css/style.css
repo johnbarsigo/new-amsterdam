@@ -21,6 +21,7 @@
     --second-bg-color: rgb(0, 0, 0);
     --text-color: #fff;
     --main-color: #4cc8fd;
+    --portfolio-background: #393939;
 
 }
 
@@ -698,12 +699,18 @@ span {
 /* \\\\\\\\\\\\\\\\\ PORTFOLIO PAGE \\\\\\\\\\\\\\\\\\ */
 
 
+.portfolio-back {
+
+    background-color: var(--portfolio-background);
+
+}
 
 .portfolio-header {
 
     text-align: center;
     font-size: 3rem;
     margin-bottom: 4rem;
+    margin-top: 10rem;
 
 }
 
@@ -717,6 +724,16 @@ span {
 
 }
 
+.projects-container h2 {
+
+    color: black;
+
+}
+
+.projects-container h3 {
+    text-align: center;
+}
+
 .project-card {
 
     width: 80vw;
@@ -727,6 +744,8 @@ span {
     border: 2px solid #ffffff;
     padding: 2rem;
     border-radius: 20px;
+    background-color: ivory;
+    color: rgb(78, 78, 78);
 
 }
 
@@ -734,6 +753,13 @@ span {
 
     width: 100%;
     border-radius: 2rem;
+
+}
+
+.project-description {
+
+    /* font-size: 1.6rem; */
+    text-align: center;
 
 }
 
