@@ -93,3 +93,25 @@ const typed = new Typed('.multiple-text', {
     backDelay: 1000,
     loop: true
 })
+
+
+// // Form validation
+
+// const form = document.getElementById('contact-form');
+// const nameInput = document.getElementById('name');
+// const emailInput = document.getElementById('email');
+// const messageInput = document.getElementById('message');
+
+// form.addEventListener('submit', (e) => {
+//     e.preventDefault();
+
+//     // Form validation logic
+
+//     if (nameInput.value === '' || emailInput.value === '' || messageInput.value === '') {
+//         alert('Please fill in all fields.');
+//     } else {
+//         // Submit the form
+//         form.submit();
+//     }
+
+// });
