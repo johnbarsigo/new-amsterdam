@@ -697,10 +697,36 @@ span {
 
 /* \\\\\\\\\\\\\\\\\ PORTFOLIO PAGE \\\\\\\\\\\\\\\\\\ */
 
+
+
+.portfolio-header {
+
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 4rem;
+
+}
+
+.projects-container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 4rem;
+
+}
+
 .project-card {
 
     width: 80vw;
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    border: 2px solid #ffffff;
+    padding: 2rem;
+    border-radius: 20px;
 
 }
 
