@@ -158,6 +158,33 @@
         
         slideShow ()
 
+        // Image Slider 2
+        
+        var slideIndex = 0;
+
+        const images2 = document.getElementsByClassName('project2-image');
+        
+        function slideShow2 () {
+            
+            setTimeout ( slideShow2, 2000 );
+            
+            var x;
+            
+            for ( x = 0; x < images2.length; x++) {
+                
+                images2[x].style.display = 'none';
+            }
+            
+            slideIndex++;
+
+            if ( slideIndex > images2.length) {
+                slideIndex = 1;
+            }
+            images2[slideIndex-1].style.display = 'block';
+        }
+        
+        slideShow2 ()
+
     </script>
 
     <!-- Custom JavaScript -->
