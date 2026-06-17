@@ -86,7 +86,12 @@
 
         <div class="project-card">
 
-            <img src="./images/safiri-auto-jpg/safiri-auto-homepage.png" alt="Safiri Auto Home Page" class="project-image">
+            <img src="./images/safiri-auto-jpg/safiri-auto-homepage.png" alt="Safiri Auto Home Page" class="project2-image">
+            <img src="./images/safiri-auto-jpg/safiri-auto-browse-vehicles.png" alt="Safiri Auto Browse Vehicles" class="project2-image">
+            <img src="./images/safiri-auto-jpg/safiri-auto-login-page.png" alt="Safiri Auto Login Page" class="project2-image">
+            <img src="./images/safiri-auto-jpg/safiri-auto-vehicles-list.png" alt="Safiri Auto Vehicles List" class="project2-image">
+            <img src="./images/safiri-auto-jpg/safiri-auto-about.png" alt="Safiri Auto About Page" class="project2-image">
+            <img src="./images/safiri-auto-jpg/safiri-auto-homepage-2.png" alt="Safiri Auto Home Page" class="project2-image">
 
             <h2>Fleet Service Management System</h2>
 
@@ -160,7 +165,7 @@
 
         // Image Slider 2
         
-        var slideIndex = 0;
+        var slideIndex2 = 0;
 
         const images2 = document.getElementsByClassName('project2-image');
         
@@ -168,19 +173,19 @@
             
             setTimeout ( slideShow2, 2000 );
             
-            var x;
+            var y;
             
-            for ( x = 0; x < images2.length; x++) {
+            for ( y = 0; y < images2.length; y++) {
                 
-                images2[x].style.display = 'none';
+                images2[y].style.display = 'none';
             }
             
-            slideIndex++;
+            slideIndex2++;
 
-            if ( slideIndex > images2.length) {
-                slideIndex = 1;
+            if ( slideIndex2 > images2.length) {
+                slideIndex2 = 1;
             }
-            images2[slideIndex-1].style.display = 'block';
+            images2[slideIndex2-1].style.display = 'block';
         }
         
         slideShow2 ()
