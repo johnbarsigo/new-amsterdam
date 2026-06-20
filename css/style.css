@@ -16,13 +16,24 @@
 
 :root {
 
-    --bg-color: #1f242d;
+    /* Blue Theme */
+    /* --bg-color: #1f242d;
     --bg-clear: #1f242da5;
     --second-bg-color: rgb(0, 0, 0);
     --text-color: #fff;
     --main-color: #4cc8fd;
     --portfolio-background: #393939;
-    --portfolio-background-2: rgb(200, 200, 200);
+    --portfolio-background-2: rgb(200, 200, 200); */
+
+    /* Plum-Noir + Gold */
+    --bg-color: #351e28;
+    --bg-clear: #1f242da5;
+    --second-bg-color: #4A2C35;
+    --text-color: #C5A059;
+    /* --text-color: #9d772f; */
+    /* --main-color: #F5E1B0; */
+    --main-color: rgb(255, 241, 177);
+    --portfolio-background: #E5C687;
 
 }
 
@@ -99,6 +110,8 @@ section {
 .navbar a.active {
 
     color: var(--main-color);
+    text-decoration: underline var(--main-color);
+    transition: ease-in-out 1s;
 
 }
 
@@ -244,7 +257,7 @@ span {
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    background: var(--second-bg-color);
+    background: black;
 
 }
 
@@ -318,6 +331,29 @@ span {
     flex-wrap: wrap;
     gap: 2rem;
 
+}
+
+@media ( prefers-reduced-motion: no-preference ) {
+
+    .services-container {
+
+        scale: .8;
+        opacity: 0;
+        animation: fade-in 1s linear forwards;
+        animation-timeline: view();
+        animation-range: 150px 400px;
+
+    }
+
+    @keyframes fade-in {
+        to { scale: 1; opacity: 1; }
+    }
+
+    @keyframes scroll-watcher {
+    to {
+        scale: 1 1;
+    }
+}
 }
 
 .services-container .services-box {
@@ -702,7 +738,8 @@ span {
 
 .portfolio-back {
 
-    background-color: white;
+    background-color: var(--portfolio-background);
+    color: var(--bg-color);
     /* background-image: url(../images/tangled-bulb.jpg); */
     /* background-size: cover;
     background-position: center;
@@ -1165,7 +1202,7 @@ span {
     position: fixed;
     top: 0;
     z-index: 1000;
-    background-color: aquamarine;
+    background-color: #F5E1B0;
     width: 100%;
     scale: 0 1;
     transform-origin: left;
@@ -1175,8 +1212,4 @@ span {
 
 }
 
-@keyframes scroll-watcher {
-    to {
-        scale: 1 1;
-    }
-}
+

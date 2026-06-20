@@ -68,7 +68,7 @@ ScrollReveal({
 
 ScrollReveal().reveal('.home-content, .heading, .portfolio-container-11 img, .contact form', { origin: 'bottom' });
 
-ScrollReveal().reveal('.services-container', { origin: 'top' });
+// ScrollReveal().reveal('.services-container', { origin: 'top' });
 
 ScrollReveal().reveal('.responsive-design', {origin: 'top', mobile: false, desktop: true});
 
