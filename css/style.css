@@ -25,15 +25,32 @@
     --portfolio-background: #393939;
     --portfolio-background-2: rgb(200, 200, 200); */
 
+
     /* Plum-Noir + Gold */
-    --bg-color: #351e28;
-    --bg-clear: #1f242da5;
+    /* --bg-color: #351e28;
+    --bg-clear: #4A2C35a5;
     --second-bg-color: #4A2C35;
     --text-color: #C5A059;
-    /* --text-color: #9d772f; */
-    /* --main-color: #F5E1B0; */
     --main-color: rgb(255, 241, 177);
-    --portfolio-background: #E5C687;
+    --portfolio-background: #E5C687; */
+
+
+    /* Blue - Gold */
+    /* --bg-color: #676f9d;
+    --bg-clear: #424769a5;
+    --second-bg-color: #2d3250;
+    --text-color: #ffffff;
+    --main-color: #f9b17a;
+    --portfolio-background: #ffffff; */
+
+
+    /* Olive & Bone */
+    --bg-color: #817a6d;
+    --bg-clear: #565449a5;
+    --second-bg-color: #11120D;
+    --text-color: #D8CFBC;
+    --main-color: #FFFBF4;
+    --portfolio-background: #D8CFBC;
 
 }
 
@@ -129,7 +146,8 @@ section {
     justify-content: center;
     align-items: center;
     background-color: black;
-    background-image: url(../images/blue-workstation.jpg);
+    /* background-image: url(../images/blue-workstation.jpg); */
+    background-image: url(../images/mac-on-desk.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -332,6 +350,8 @@ span {
     gap: 2rem;
 
 }
+
+/* ------------- ANIMATION ------------- */
 
 @media ( prefers-reduced-motion: no-preference ) {
 
