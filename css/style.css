@@ -50,6 +50,9 @@
     --second-bg-color: #11120D;
     --text-color: #D8CFBC;
     --main-color: #FFFBF4;
+    --main-color-home-about: #546745;
+    /* --main-color: #3a4b41; */
+    /* --main-color: #4b4d39; */
     --portfolio-background: #D8CFBC;
 
 }
@@ -173,6 +176,10 @@ span {
     color: var(--main-color)
 }
 
+.home span, .about span {
+    color: var(--main-color-home-about);
+}
+
 .home-content h1 {
 
     font-size: 5.6rem;
@@ -209,7 +216,7 @@ span {
     width: 4rem;
     height: 4rem;
     background: transparent;
-    border: .2rem solid var(--main-color);
+    border: .2rem solid var(--main-color-home-about);
     border-radius: 50%;
     font-size: 2rem;
     color: var(--main-color);
@@ -220,9 +227,9 @@ span {
 
 .social-media a:hover {
 
-    background: var(--main-color);
+    background: var(--main-color-home-about);
     color: var(--second-bg-color);
-    box-shadow: 0 0 1rem var(--main-color);
+    box-shadow: 0 0 1rem var(--main-color-home-about);
 
 }
 
@@ -234,7 +241,7 @@ span {
     width: 4rem;
     height: 4rem;
     background: transparent;
-    border: .2rem solid var(--main-color);
+    border: .2rem solid var(--main-color-home-about);
     border-radius: 50%;
     font-size: 2rem;
     color: var(--main-color);
@@ -253,9 +260,9 @@ span {
 
     display: inline-block;
     padding: 1rem 2.8rem;
-    background: var(--main-color);
+    background: var(--main-color-home-about);
     border-radius: 4rem;
-    box-shadow: 0 0 1rem var(--main-color);
+    box-shadow: 0 0 1rem var(--main-color-home-about);
     font-size: 1.6rem;
     color: var(--second-bg-color);
     letter-spacing: .1rem;
