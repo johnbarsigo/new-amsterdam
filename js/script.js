@@ -94,6 +94,25 @@ const typed = new Typed('.multiple-text', {
     loop: true
 })
 
+// ENLARGE IMAGES ON CLICK
+
+const image = document.getElementsByClassName( "enlarge-image" );
+
+image.addEventListener( "click", () => {
+
+    if (image.requestFullscreen) { /* Browser support */
+        image.requestFullscreen();
+    }
+    else if (image.webkitRequestFullscreen) { /* Safari */
+        image.webkitRequestFullscreen();
+    }
+    else if (image.msRequestFullscreen) { /* IE11 */
+        image.msRequestFullscreen();
+    }
+
+}
+)
+
 
 
 
