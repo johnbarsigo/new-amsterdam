@@ -79,6 +79,13 @@ body {
 
 }
 
+/* Image overlay setting */
+#myOverlay {
+    position: fixed;
+    display: none;
+    background: rgba(0, 0, 0, 0.8);
+}
+
 section {
 
     min-height: 100vh;
