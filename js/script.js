@@ -113,7 +113,9 @@ const typed = new Typed('.multiple-text', {
 // }
 // )
 
-function openOverlay() {
+function openOverlay(imageSrc) {
+
+    document.getElementById("overlayImage").src = imageSrc;
     document.getElementById("myOverlay").style.display = "block";
 }
 function closeOverlay() {
