@@ -96,22 +96,30 @@ const typed = new Typed('.multiple-text', {
 
 // ENLARGE IMAGES ON CLICK
 
-const image = document.getElementsByClassName( "enlarge-image" );
+// const image = document.getElementsByClassName( "enlarge-image" );
 
-image.addEventListener( "click", () => {
+// image.addEventListener( "click", () => {
 
-    if (image.requestFullscreen) { /* Browser support */
-        image.requestFullscreen();
-    }
-    else if (image.webkitRequestFullscreen) { /* Safari */
-        image.webkitRequestFullscreen();
-    }
-    else if (image.msRequestFullscreen) { /* IE11 */
-        image.msRequestFullscreen();
-    }
+//     if (image.requestFullscreen) { /* Browser support */
+//         image.requestFullscreen();
+//     }
+//     else if (image.webkitRequestFullscreen) { /* Safari */
+//         image.webkitRequestFullscreen();
+//     }
+//     else if (image.msRequestFullscreen) { /* IE11 */
+//         image.msRequestFullscreen();
+//     }
 
+// }
+// )
+
+function openOverlay() {
+    document.getElementById("myOverlay").style.display = "block";
 }
-)
+function closeOverlay() {
+    document.getElementById("myOverlay").style.display = "none";
+}
+
 
 
 
