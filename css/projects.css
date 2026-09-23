@@ -72,3 +72,65 @@ p.subtitle {
     flex-direction: column;
 
 }
+
+.project-card:hover {
+
+    transform: translateY(-4px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+
+}
+
+.card-image {
+
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-muted);
+    font-weight: 600;
+    position: relative;
+    border-bottom: 1px solid #334155;
+
+}
+
+/* Mock UI Window effect for Web Apps */
+.card-image::before {
+
+    content: "•••";
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    color: var(--text-muted);
+    font-size: 14px;
+    letter-spacing: 2px;
+
+}
+
+.card-content {
+
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+}
+
+.project-title {
+
+    font-size: 1.3rem;
+    margin: 0 0 0.5rem 0;
+    color: var(--text-main);
+
+}
+
+.project-description {
+
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+    flex-grow: 1;
+
+}
