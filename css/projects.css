@@ -1,13 +1,16 @@
 
 :root {
 
-    --bg-color: #1a1a1a;
+    --bg-color: #817a6d;
+    --second-bg-color: #11120D;
     --card-bg: #2c2c2c;
-    --text-main: #ffffff;
-    --text-muted: #b3b3b3;
-    --accent: #ff6f61;
-    --accent-hover: #ff5252;
-    --tag-bg: #3a3a3a;
+    --text-main: #FFFBF4;
+    --text-muted: #D8CFBC;
+    /* --accent: #ff6f61;
+    --accent-hover: #ff5252; */
+    --accent: #546745;
+    --accent-hover: #4b4d39;
+    --tag-bg: #2c2c2c;
 
 }
 
@@ -15,7 +18,7 @@ body {
 
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
-    background-color: var(--bg-color);
+    background-color: var(--second-bg-color);
     color: var(--text-main);
     margin: 0;
     padding: 2rem;
@@ -84,9 +87,9 @@ p.subtitle {
 
     width: 100%;
     height: 200px;
-    background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+    background: linear-gradient(135deg, var(--bg-color) 0%, var(--text-muted) 100%);
     display: flex;
-    align-items: center;
+    align-items: stretch;
     justify-content: center;
     color: var(--text-muted);
     font-weight: 600;
@@ -100,9 +103,9 @@ p.subtitle {
 
     content: "•••";
     position: absolute;
-    top: 12px;
-    left: 12px;
-    color: var(--text-muted);
+    top: -5px;
+    left: 2px;
+    color: rgb(255, 196, 0);
     font-size: 14px;
     letter-spacing: 2px;
 
@@ -178,7 +181,7 @@ p.subtitle {
 .btn-primary {
 
     background-color: var(--accent);
-    color: var(--bg-color);
+    color: var(--text-muted);
 
 }
 
@@ -199,4 +202,10 @@ p.subtitle {
 
     background-color: var(--tag-bg);
     
+}
+
+.card-image img {
+
+    width: 100%;
+
 }
