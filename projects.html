@@ -38,7 +38,7 @@
                     <img src="./images/FoodCourtPics/foodcourt-owner-dash-light.png" alt="Foodcourt Owner Dashboard" class="project-image">
                     <img src="./images/FoodCourtPics/foodcourt-outlets.png" alt="Foodcourt Outlets Page" class="project-image">
                     <img src="./images/FoodCourtPics/foodcourt-booking-tick.png" alt="Foodcourt Booking Page" class="project-image">
-                    
+
                 </div>
                 <div class="card-content">
 
@@ -64,7 +64,17 @@
             <!-- PROJECT 2 CARD -->
             <div class="project-card">
 
-                <div class="card-image">Fleet Service Management System</div>
+                <!-- <div class="card-image">Fleet Service Management System</div> -->
+                <div class="card-image">
+
+                    <img src="./images/safiri-auto-jpg/safiri-auto-homepage.png" alt="Safiri Auto Home Page" class="project2-image">
+                    <img src="./images/safiri-auto-jpg/safiri-auto-browse-vehicles.png" alt="Safiri Auto Browse Vehicles" class="project2-image">
+                    <img src="./images/safiri-auto-jpg/safiri-auto-login-page.png" alt="Safiri Auto Login Page" class="project2-image">
+                    <img src="./images/safiri-auto-jpg/safiri-auto-vehicles-list.png" alt="Safiri Auto Vehicles List" class="project2-image">
+                    <img src="./images/safiri-auto-jpg/safiri-auto-about.png" alt="Safiri Auto About Page" class="project2-image">
+                    <img src="./images/safiri-auto-jpg/safiri-auto-homepage-2.png" alt="Safiri Auto Home Page" class="project2-image">
+
+                </div>
                 <div class="card-content">
 
                     <h3 class="project-title">Safiri Auto</h3>
@@ -115,6 +125,66 @@
 
 
     </div>
+
+    
+    <!-- SCRIPTS -->
+    <script>
+
+        // Image slider
+        
+        var slideIndex = 0;
+
+        const images = document.getElementsByClassName('project-image');
+        
+        function slideShow () {
+            
+            setTimeout ( slideShow, 2000 );
+            
+            var x;
+            
+            for ( x = 0; x < images.length; x++) {
+                
+                images[x].style.display = 'none';
+            }
+            
+            slideIndex++;
+
+            if ( slideIndex > images.length) {
+                slideIndex = 1;
+            }
+            images[slideIndex-1].style.display = 'block';
+        }
+        
+        slideShow ()
+
+        // Image Slider 2
+        
+        var slideIndex2 = 0;
+
+        const images2 = document.getElementsByClassName('project2-image');
+        
+        function slideShow2 () {
+            
+            setTimeout ( slideShow2, 2000 );
+            
+            var y;
+            
+            for ( y = 0; y < images2.length; y++) {
+                
+                images2[y].style.display = 'none';
+            }
+            
+            slideIndex2++;
+
+            if ( slideIndex2 > images2.length) {
+                slideIndex2 = 1;
+            }
+            images2[slideIndex2-1].style.display = 'block';
+        }
+        
+        slideShow2 ()
+
+    </script>
     
 </body>
 
