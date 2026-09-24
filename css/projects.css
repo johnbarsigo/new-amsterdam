@@ -142,6 +142,7 @@ p.subtitle {
 
     display: flex;
     flex-wrap: wrap;
+    justify-content:space-evenly;
     gap: 0.5rem;
     margin-bottom: 1.5rem;
 
@@ -209,3 +210,16 @@ p.subtitle {
     width: 100%;
 
 }
+
+/* Image overlay setting
+#myOverlay {
+    position: fixed;
+    display: none;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+html.sr .load-hidden {
+
+    visibility: hidden;
+
+} */
