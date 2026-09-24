@@ -99,11 +99,21 @@
             <!-- PROJECT 3 CARD -->
             <div class="project-card">
 
-                <div class="card-image">Smart Rental Management System</div>
+                <!-- <div class="card-image">Boardwalk Management System</div> -->
+                <div class="card-image">
+                    
+                    <img src="./images/Boardwalk MS/Boardwalk-Dashboard.png" alt="Boardwalk Dashboard" class="project3-image">
+                    <img src="./images/Boardwalk MS/Boardwalk-Rooms.png" alt="Boardwalk Rooms Page" class="project3-image">
+                    <img src="./images/Boardwalk MS/Boardwalk-Tenants.png" alt="Boardwalk Tenants Page" class="project3-image">
+                    <img src="./images/Boardwalk MS/Boardwalk-Payments.png" alt="Boardwalk Payments Page" class="project3-image">
+                    <img src="./images/Boardwalk MS/Boardwalk-Billings.png" alt="Boardwalk Billings Page" class="project3-image">
+                    <img src="./images/Boardwalk MS/Boardwalk-Reports.png" alt="Boardwalk Reports Page" class="project3-image">
+                    <img src="./images/Boardwalk MS/Boardwalk-User-Settings.png" alt="Boardwalk User Settings Page" class="project3-image">
+                </div>
                 <div class="card-content">
 
-                    <h3 class="project-title">Boardwalk Management System</h3>
-                    <p class="project-description">Description of the third project.</p>
+                    <h3 class="project-title">Smart Rental Management System</h3>
+                    <p class="project-description">BoardWalk is a modern property management system that helps landlords and managers track rooms, tenants, billing, payments, and reports in one streamlined dashboard.</p>
 
                     <div class="tags">
                         <span class="tag">JavaScript</span>
@@ -183,6 +193,33 @@
         }
         
         slideShow2 ()
+
+        // Image Slider 3
+        
+        var slideIndex3 = 0;
+
+        const images3 = document.getElementsByClassName('project3-image');
+        
+        function slideShow3 () {
+            
+            setTimeout ( slideShow3, 2000 );
+            
+            var z;
+            
+            for ( z = 0; z < images3.length; z++) {
+                
+                images3[z].style.display = 'none';
+            }
+            
+            slideIndex3++;
+
+            if ( slideIndex3 > images3.length) {
+                slideIndex3 = 1;
+            }
+            images3[slideIndex3-1].style.display = 'block';
+        }
+        
+        slideShow3 ()
 
     </script>
     
