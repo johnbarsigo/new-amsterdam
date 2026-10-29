@@ -154,7 +154,6 @@ section {
 
     display: flex;
     height: 100svh;
-    width: 100svw;
     justify-content: center;
     align-items: center;
     background-color: black;
@@ -1283,4 +1282,15 @@ span {
 
 }
 
+/* Target iOS devices specifically to fix the background stretch */
+@supports (-webkit-touch-callout: none) {
 
+  body.home { 
+
+    background-size: 100% 100%;
+    /* Alternative: force it to contain if 100% stretches it sideways too much */
+
+    /* background-size: contain; */
+    
+  }
+}
