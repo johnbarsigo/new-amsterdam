@@ -1282,15 +1282,13 @@ span {
 
 }
 
-/* Target iOS devices specifically to fix the background stretch */
+/* Fix for the iOS Safari background image zoom glitch */
 @supports (-webkit-touch-callout: none) {
 
-  body.home { 
+    .home {
 
-    /* background-size: 100% 100%; */
-    /* Alternative: force it to contain if 100% stretches it sideways too much */
+        background-attachment: scroll !important;
 
-    background-size: contain;
-
-  }
+    }
+    
 }
