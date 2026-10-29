@@ -208,10 +208,25 @@ span {
 
 }
 
+.social-media a {
+
+    display: flex;
+    margin: 5pt;
+
+}
+
 .cv-links {
 
     display: flex;
     justify-content: space-around;
+
+}
+
+.projects-link {
+
+    display: flex;
+    margin: 15pt;
+    justify-content: center;
 
 }
 
