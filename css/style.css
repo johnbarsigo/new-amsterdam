@@ -1287,10 +1287,10 @@ span {
 
   body.home { 
 
-    background-size: 100% 100%;
+    /* background-size: 100% 100%; */
     /* Alternative: force it to contain if 100% stretches it sideways too much */
 
-    /* background-size: contain; */
-    
+    background-size: contain;
+
   }
 }
